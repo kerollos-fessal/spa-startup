@@ -1,0 +1,20 @@
+.line {
+    height: 4px;
+    width: 80px;
+    background-color:  rgb(44, 62, 80);
+}
+
+.layer{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .6s;
+}
+
+.layer:hover{
+    opacity: 1;
+}
+
+.model {
+    z-index: 9999;
+}

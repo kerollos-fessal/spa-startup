@@ -1,0 +1,11 @@
+.footer, .card-group, .custom-card{
+    background-color: #2C3E50;
+    /* background-color: #1A252F; */
+}
+
+.p{
+    background-color: #1A252F;
+    color: white;
+    display: flex; 
+    justify-content: center;
+}

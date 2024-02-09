@@ -1,0 +1,14 @@
+nav{
+    background-color: #2C3E50;
+    color: white;
+    transition:all .6s ;
+}
+
+
+.active{
+    background-color: #1ABC9C;
+}
+
+.logo{
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+<!-- <p  (click)="welcome()" [style.color]=" userName == 'kerollos' ? 'red' : 'blue' ">about works! hi {{userName}}</p>
+<div (click)="toggleInfo()" class="fs-1" [class] = "myAge> 20 ? 'bg-info' : 'bg-danger' ">this for test this number which is {{myAge}}</div>
+<input type="text" class="form-control w-75 mx-auto my-4 shadow-sm" [(ngModel)]="userName" placeholder="Search for a movie..." name="search">
+<input type="text" class="form-control w-75 mx-auto my-4 shadow-sm" (keyup.shift.y)="printInConsole($event)" placeholder="Search for a movie..." name="search">
+<div class="container mx-auto"> -->
+<!-- <h2> product Name : {{product.name}}</h2>
+    <h2> product Price : {{product.price}}</h2>
+    <h2> product Category : {{product.category}}</h2>     -->
+<!-- <ul>
+        <li *ngFor="let x of friends">{{x}}</li>
+    </ul>
+    <table class="table text-center">
+        <thead>
+            <th>Index</th>
+            <th>Product Name</th>
+            <th>Product Price</th>
+            <th>Product Category</th>
+        </thead>
+        <tbody>
+            <tr *ngFor=" let product of products; let i = index; let r = last" [class.fs-1]="r">
+                <td>{{i + 1}}</td>
+                <td>{{product.name | uppercase}}</td>
+                <td>$ {{product.price}}</td>
+                <td>{{product.category}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div> -->
+
+<div class="about text-white d-flex justify-content-center align-items-center pt-5 mt-4">
+    <div>
+      <div
+          class="text-center pt-3 mt-4"
+          style="color: white">
+          <h2 class="mb-2 fs-1 fw-bolder">ABOUT COMPONENT</h2>
+         </div>
+         <div class="d-flex align-items-center justify-content-center mb-2">
+            <div class="line me-3"></div>
+            <app-star></app-star>
+            <div class="line ms-3"></div>
+        </div>
+      <div class="container">
+        <div class="row px-5">
+          <div class="col-md-6 ps-md-5">
+            <p>
+              Freelancer is a free bootstrap theme created by Route. The
+              download includes the complete source files including HTML, CSS,
+              and JavaScript as well as optional SASS stylesheets for easy
+              customization.
+            </p>
+          </div>
+          <div class="col-md-6 pe-5">
+            <p>
+              Freelancer is a free bootstrap theme created by Route. The
+              download includes the complete source files including HTML, CSS,
+              and JavaScript as well as optional SASS stylesheets for easy
+              customization.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,27 @@
+.custom-color{
+    color:  rgb(44, 62, 80);
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color:  rgb(44, 62, 80);
+}
+
+
+.contact-wrapper{
+    height: 90vh;
+}
+
+label {
+    color: #1abc9c;
+    margin-bottom: 7px;
+    transition: all .6s;
+}
+input:focus{
+    box-shadow: none !important;
+}
+
+.change-top {
+    top: 40px!important;
+}

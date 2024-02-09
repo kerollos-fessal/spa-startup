@@ -1,0 +1,25 @@
+    <div class="mb-4 mt-5 pt-4 contact-wrapper">
+        <div class="pt-3 conatiner">
+            <div class="text-center pt-4 custom-color">
+                <h2 class="text-uppercase mb-2 fs-1 pt-3 fw-bolder">conatct section</h2>
+            <div class="d-flex align-items-center justify-content-center mb-3">
+                <div class="line me-3"></div>
+                <app-star></app-star>
+                <div class="line ms-3"></div>
+            </div>
+                </div>
+<!-- <div (click)="toggleInfo()" class="fs-1" [class] = "myAge> 20 ? 'bg-info' : 'bg-danger' ">this for test this number which is {{myAge}}</div> -->
+<!-- [class] = "myAge> 20 ? 'bg-info' : 'bg-danger' "            -->
+            <form novalidate="" action="" class="w-50 px-3 pb-3 pt-4 mx-auto mt-5">
+                <label for="userName" class="position-relative" [class] = "userName.length> 0 ? 'top-0' : 'change-top' ">userName : </label>
+                <input  id="userName" [(ngModel)]="userName" type="text" placeholder="userName" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-valid ng-dirty ng-touched">
+                <label for="userAge" class="position-relative" [class] = "userAge.length> 0 ? 'top-0' : 'change-top' ">userAge : </label>
+                <input id="userAge" [(ngModel)]="userAge" type="text" placeholder="userAge" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-valid ng-dirty ng-touched">
+                <label for="userEmail" class="position-relative" [class] = "userEmail.length> 0 ? 'top-0' : 'change-top' ">userEmail : </label>
+                <input id="userEmail" [(ngModel)]="userEmail" type="text" placeholder="userEmail" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-valid ng-dirty ng-touched">
+                <label for="userPassword" class="position-relative" [class] = "userPassword.length> 0 ? 'top-0' : 'change-top' ">userPassword : </label>
+                <input id="userPassword" [(ngModel)]="userPassword" type="text" placeholder="userPassword" name="userName" class="form-control border-0 border-bottom py-3 position-relative ng-valid ng-dirty ng-touched">
+                <button class="btn mt-4 text-white" style="background-color: #1abc9c;"> send Message </button>
+            </form>
+        </div>
+    </div>
